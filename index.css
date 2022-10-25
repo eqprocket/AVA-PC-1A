@@ -4,4 +4,6 @@ html {
 
 .titulo {
     width: auto;
+    text-align: center;
+    font-style: italic;
 }
