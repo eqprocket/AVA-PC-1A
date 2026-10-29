@@ -1,42 +1,423 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Escola Conectada</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
-    <script src='main.js'></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtendaFlow | WhatsApp, Chat Web e Gestão de Atendimento</title>
+    <meta name="description" content="Centralize WhatsApp e chat do site com filas, agenda, mensagens programadas, aplicativo Android e copiloto de IA para sua equipe.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" href="tecnologia.jpeg">
 </head>
- <body>
-    <header>
-    <h1 class="titulo">Escola Conectada</h1>
-    <img src="banner" href="banner.jpeg">
-    <h1>Conheça as cinco tecnologias indispensáveis no nosso dia-a-
-dia</h1>
+<body>
 
-Vivemos em uma era em que as novas tecnologias se tornaram uma extensão do cérebro humano. É nelas
-que guardamos as informações, que antigamente, ficavam apenas nas lembranças, e é com os aparelhos
-tecnológicos que interagimos com o mundo. Com essa mudança, é impossível viver sem as tecnologias.
-Você já parou para pensar quais são as tecnologias indispensáveis na sua vida? Veja uma lista com cinco
-dessas modernidades:
-- Celulares, tablets e computadores: são os responsáveis pela nossa mobilidade na comunicação e no
-contato com informações universais - tudo por meio da internet móvel;
-- Banda Larga: o que seriam dos celulares, tablets e computadores sem a banda larga? Ela é a responsável
-pelo funcionamento da internet;
-- Conectividade sem fio: a mobilidade e a conectividade dos aparelhos móveis que tanto gostamos que
-ocorrem graças ao wi-fi, que é a conectividade sem fio;
-- Sites de busca: quantas vezes no dia você se vê obrigado a entrar nesses sites para pesquisar algo sobre
-um determinado assunto? Imagine se ainda precisássemos da “Barsa” ( enciclopédia).
-- GPS: facilitou, e muito, a vida das pessoas na busca da localização dos destinos nas viagens.
-Fonte: https://www.adekz.com/post/conheca-as-cinco-tecnologias-indispensaveis-no-nosso-dia-a-dia?
-gclid=EAIaIQobChMIm6uxqZPY-gIVGCeRCh0i3A-iEAAYASAAEgJmQfD_BwE
- </header>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="brand-logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <span class="brand-name">Atenda<span>Flow</span></span>
+            </a>
 
+            <nav class="nav-links">
+                <a href="#produto">Produto</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#ia">Copiloto IA</a>
+                <a href="#hospedagem">Hospedagem</a>
+                <a href="#faq">Dúvidas</a>
+                <a href="#contato">Contato</a>
+            </nav>
 
-</div>
+            <div class="nav-actions">
+                <a href="#contato" class="btn btn-secondary btn-sm">Entrar</a>
+                <a href="#contato" class="btn btn-primary btn-sm">Iniciar Teste</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Plataforma Unificada de Atendimento</span>
+            </div>
+            <h1 class="hero-title">
+                WhatsApp e Chat Web organizados para a sua equipe
+            </h1>
+            <p class="hero-subtitle">
+                Centralize suas conversas, organize filas por setores, agende atendimentos e potencie sua equipe com apoio opcional de Inteligência Artificial em uma única interface sóbria e eficiente.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5546974009129?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20AtendaFlow" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    Falar pelo WhatsApp
+                </a>
+                <a href="#produto" class="btn btn-secondary btn-lg">
+                    Conhecer a Operação
+                </a>
+            </div>
+
+            <!-- Dashboard Preview Card -->
+            <div class="preview-card">
+                <div class="preview-header">
+                    <div class="window-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="preview-title">Painel Operacional AtendaFlow</div>
+                    <div class="preview-status">
+                        <span class="status-indicator"></span> Conexão Ativa
+                    </div>
+                </div>
+                <div class="preview-body">
+                    <div class="preview-sidebar">
+                        <div class="sidebar-search">Conversas Ativas</div>
+                        <div class="chat-item active">
+                            <div class="avatar">MS</div>
+                            <div class="chat-info">
+                                <div class="chat-name">Maria Santos</div>
+                                <div class="chat-msg">Preciso confirmar o horário</div>
+                            </div>
+                            <span class="chat-time">Agora</span>
+                        </div>
+                        <div class="chat-item">
+                            <div class="avatar">RC</div>
+                            <div class="chat-info">
+                                <div class="chat-name">Ricardo Costa</div>
+                                <div class="chat-msg">Documento enviado para análise</div>
+                            </div>
+                            <span class="chat-time">4m</span>
+                        </div>
+                        <div class="chat-item">
+                            <div class="avatar">AS</div>
+                            <div class="chat-info">
+                                <div class="chat-name">Ana Souza</div>
+                                <div class="chat-msg">Atendimento encaminhado</div>
+                            </div>
+                            <span class="chat-time">12m</span>
+                        </div>
+                    </div>
+                    <div class="preview-main">
+                        <div class="chat-header">
+                            <div>
+                                <strong>Maria Santos</strong>
+                                <span class="tag tag-blue">Comercial</span>
+                            </div>
+                            <span class="text-muted">Atendente: Mauro</span>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="message msg-in">
+                                <div class="msg-bubble">Bom dia! Consigo confirmar meu agendamento por aqui?</div>
+                                <span class="msg-time">10:14</span>
+                            </div>
+                            <div class="message msg-out">
+                                <div class="msg-bubble">Com certeza, Maria! Seu agendamento está confirmado para hoje às 14:00h com a nossa equipe.</div>
+                                <span class="msg-time">10:15</span>
+                            </div>
+                            <div class="message msg-in">
+                                <div class="msg-bubble">Perfeito, muito obrigada pelo atendimento rápido!</div>
+                                <span class="msg-time">10:15</span>
+                            </div>
+                        </div>
+                        <div class="chat-input-bar">
+                            <input type="text" placeholder="Escreva uma resposta ou use '/' para mensagens rápidas..." disabled>
+                            <button class="btn btn-primary btn-sm">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operation Highlights -->
+    <section class="section section-alt" id="produto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Operação Eficiente</span>
+                <h2>Sua equipe no comando de cada interação</h2>
+                <p>Mantenha visibilidade total do histórico, transferências com contexto preservado e acompanhamento em tempo real.</p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon">01</div>
+                    <h3>Distribuição Organizada</h3>
+                    <p>Filas personalizadas por setor, atribuição transparente de responsáveis e direcionamento direto para o atendente ideal.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">02</div>
+                    <h3>Contexto Preservado</h3>
+                    <p>Histórico completo, notas internas e linha do tempo unificada para que o cliente não precise repetir informações.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">03</div>
+                    <h3>Gestão em Tempo Real</h3>
+                    <p>Métricas operacionais, controle de SLA, tempo médio de resposta e saúde das conexões de WhatsApp sempre acessíveis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features -->
+    <section class="section" id="recursos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recursos Integrados</span>
+                <h2>Tudo que sua operação necessita em um só lugar</h2>
+                <p>Ferramentas desenhadas para maximizar produtividade, retenção e qualidade na comunicação com seus clientes.</p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h4>Atendimento Multiatendente</h4>
+                    <p>Múltiplos colaboradores atendendo no mesmo número de WhatsApp com separação de filas e registros auditáveis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    </div>
+                    <h4>Automação e Chatbot</h4>
+                    <p>Triagem inicial inteligente e respostas automáticas configuráveis para agilizar o encaminhamento dos clientes.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    </div>
+                    <h4>Agenda e Mensagens Programadas</h4>
+                    <p>Gestão de horários, lembretes de compromissos e envio programado de mensagens de follow-up.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                    </div>
+                    <h4>Gestão de Mídias e Arquivos</h4>
+                    <p>Envio e visualização fluida de áudios, imagens, documentos e comprovantes no próprio painel.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                    </div>
+                    <h4>Aplicativo Android Native</h4>
+                    <p>Atenda e acompanhe seus clientes diretamente do seu smartphone Android com notificações instantâneas.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h4>Widget Chat Web</h4>
+                    <p>Incorpore o widget no seu site sem necessidade de login do cliente para captar chamados diretamente no painel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copiloto IA Section -->
+    <section class="section section-alt" id="ia">
+        <div class="container">
+            <div class="ia-banner">
+                <div class="ia-content">
+                    <span class="badge-dot-green">IA Assistida e Opcional</span>
+                    <h2>Copiloto de IA para Apoio Humano</h2>
+                    <p>Nossa Inteligência Artificial atua como assistente de retaguarda: gera resumos rápidos de atendimentos longos, sugere respostas com base na sua Base de Conhecimento e prepara contextos para transferências. **Nenhuma mensagem é enviada sem a revisão e aprovação explícita do atendente.**</p>
+                    <ul class="ia-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <span><strong>Resumos Instantâneos:</strong> Entenda o histórico do cliente em poucos segundos.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <span><strong>Sugestões Inteligentes:</strong> Base de artigos organizados por setor para respostas precisas.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <span><strong>Total Controle:</strong> Ative ou desative os recursos de IA a qualquer momento.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud VPS Hosting Section -->
+    <section class="section" id="hospedagem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Infraestrutura Recomendada</span>
+                <h2>Servidores Cloud VPS Otimizados</h2>
+                <p>Hospedagem de alto desempenho com isolamento KVM, proteção DDoS e latência ultra-baixa para o AtendaFlow.</p>
+            </div>
+
+            <div class="grid grid-3">
+                <!-- Plan 1 -->
+                <div class="pricing-card">
+                    <span class="pricing-badge">1 Slice Cloud VPS</span>
+                    <h3>VPS Starter</h3>
+                    <p class="pricing-desc">Ideal para pequenas equipes iniciando a centralização de contatos.</p>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">3</span>
+                        <span class="period">/ mês</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><strong>2 GB RAM</strong> & 1 vCPU Core</li>
+                        <li><strong>40 GB SSD</strong> de Alta Velocidade</li>
+                        <li><strong>2 TB</strong> de Transferência Mensal (10Gbps)</li>
+                        <li>Isolamento KVM Certificado</li>
+                    </ul>
+                    <a href="https://www.interserver.net/vps?id=1167854&sid=atendaflow-starter" target="_blank" rel="noopener" class="btn btn-secondary btn-block">Assinar Starter</a>
+                </div>
+
+                <!-- Plan 2 - Featured -->
+                <div class="pricing-card featured">
+                    <span class="pricing-badge badge-featured">Mais Recomendado</span>
+                    <h3>VPS Pro</h3>
+                    <p class="pricing-desc">Desempenho ideal para médias operações com múltiplos canais de WhatsApp.</p>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">12</span>
+                        <span class="period">/ mês</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><strong>8 GB RAM</strong> & 2 vCPU Cores</li>
+                        <li><strong>160 GB SSD</strong> de Alta Velocidade</li>
+                        <li><strong>8 TB</strong> de Transferência Mensal (10Gbps)</li>
+                        <li>Múltiplas Conexões WhatsApp & Chatbot</li>
+                        <li>Fluidez para envio de mídias e áudios</li>
+                    </ul>
+                    <a href="https://www.interserver.net/vps?id=1167854&sid=atendaflow-pro" target="_blank" rel="noopener" class="btn btn-primary btn-block">Assinar VPS Pro</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="pricing-card">
+                    <span class="pricing-badge">8 Slices Cloud VPS</span>
+                    <h3>VPS Enterprise</h3>
+                    <p class="pricing-desc">Para grandes volumes de mensagens, com Suporte Gerenciado incluso.</p>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">24</span>
+                        <span class="period">/ mês</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><strong>16 GB RAM</strong> & 4 vCPU Cores</li>
+                        <li><strong>320 GB SSD</strong> Storage Dedicado</li>
+                        <li><strong>16 TB</strong> de Transferência Mensal (10Gbps)</li>
+                        <li>Suporte Gerenciado Incluso</li>
+                        <li>Ideal para IA Local e Banco de Dados</li>
+                    </ul>
+                    <a href="https://www.interserver.net/vps?id=1167854&sid=atendaflow-enterprise" target="_blank" rel="noopener" class="btn btn-secondary btn-block">Assinar Enterprise</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section section-alt" id="faq">
+        <div class="container container-narrow">
+            <div class="section-header">
+                <span class="section-tag">Esclareça suas dúvidas</span>
+                <h2>Perguntas Frequentes</h2>
+            </div>
+
+            <div class="faq-list">
+                <details class="faq-item" open>
+                    <summary class="faq-question">
+                        <span>O cliente precisa criar login para conversar no Chat Web do site?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Não. O visitante apenas abre o chat, informa o nome se solicitado e inicia a conversa normalmente. O atendimento entra diretamente na fila configurada da sua equipe.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>A Inteligência Artificial envia mensagens automaticamente?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Não. O copiloto de IA funciona de forma puramente assistida: ele gera rascunhos, resumos ou sugestões que precisam ser revisados e confirmados pelo atendente antes do envio.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>É possível utilizar o AtendaFlow no celular?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Sim! Além do painel Web para computadores, disponibilizamos um aplicativo nativo para Android para que a equipe possa responder atendimentos em movimento.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Posso integrar o AtendaFlow com outros sistemas?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Sim. A plataforma possui API REST autenticada, suporte a Webhooks assinados e integração pronta com ferramentas como GLPI, Prometheus e Grafana.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <span class="section-tag">Contato Comercial</span>
+                    <h2>Fale com nossos especialistas</h2>
+                    <p>Tire suas dúvidas sobre implantação, infraestrutura ou solicite uma demonstração do AtendaFlow para sua empresa.</p>
+                </div>
+                <div class="contact-cards">
+                    <a href="https://wa.me/5546974009129?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20AtendaFlow" target="_blank" rel="noopener" class="contact-card">
+                        <div class="card-title">WhatsApp Comercial</div>
+                        <div class="card-detail">+55 (46) 97400-9129</div>
+                    </a>
+                    <a href="mailto:contato@atendaflow.com.br" class="contact-card">
+                        <div class="card-title">E-mail Comercial</div>
+                        <div class="card-detail">contato@atendaflow.com.br</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="brand-logo">
+                    <span class="brand-name">Atenda<span>Flow</span></span>
+                </a>
+                <p>Gestão unificada e inteligente de WhatsApp e Chat Web para equipes modernas.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#produto">Produto</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#hospedagem">Hospedagem</a>
+                <a href="#faq">Dúvidas</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 AtendaFlow. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
-
 </html>
